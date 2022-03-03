@@ -1,0 +1,263 @@
+
+@keyframes on_load {
+    0%{
+        transform: translateY(-100px);
+        opacity: 0%;
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}
+@keyframes on_load2 {
+    0%{
+        transform: translateX(-100px);
+        opacity: 0%;
+    }
+
+    100%{
+        transform: translateX(0px);
+    }
+}
+@keyframes on_load3 {
+    0%{
+        transform: translateX(100px);
+        opacity: 0%;
+    }
+
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+@keyframes on_load4 {
+    0%{
+        transform: translateX(-100px);
+        opacity: 0%;
+    }
+
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+
+
+
+
+html{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;  
+}
+    body{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        background-color: rgb(32, 32, 32);
+        color: white;
+    }
+
+    .header{
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 4%;
+        margin-right: 15%;
+        width: 80%;
+     
+        font-family:sans-serif;
+        
+
+    }
+    .logo{
+        margin-right: 71%;
+    }
+    .header div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+
+    }
+    .header div p{
+        margin-top: 23%;
+        font-size: 30px;
+        margin-left: 2px;
+    }
+    .header div h5{
+        margin-left: 10px;
+        margin-top: 23%;
+    }
+
+
+
+
+    .Nav{
+        position: fixed;
+         width:120px;
+         margin-top: 110px;
+         animation: on_load 1s  ease-in-out;
+    }
+    .imagens-log{
+        
+        width: 50px;
+        height: 100vh;
+        margin-left: 65%;
+    }
+
+    .icons img{
+        margin: 0 auto;
+    }
+    .icons:hover{
+        border-left: red solid 5px;
+        padding: 5px;
+    }
+    
+
+    .icons img{
+        width: 35px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+
+
+
+
+    main{
+       
+        position: fixed;
+        display: flex;
+
+        justify-content: center;
+        align-items:center;
+        
+       margin-left: 10%;
+       margin-top: 7%;
+       margin-right: 10%;
+       
+
+        width: 80%;
+        height: 100vh;
+        
+    }
+
+    .all{
+        width: 100%;
+        height: 100%;
+    }
+   
+   
+    .Cont-top{
+        width: 100%;
+        height: 25%;
+        display: flex;
+        animation: on_load2 1.5s  ease-in-out;
+    }
+    .conteudo-top{
+        width: 35%;
+        margin: 4PX;
+        height: 100%;
+        background-color: rgb(0, 0, 0);
+        border-radius: 5px;
+    }
+
+    .conteudo-top:hover{
+        border: white solid 2px;
+        padding: 3px;
+        border-radius: 20px;
+    }
+
+    .Cont-main{
+        width: 100%;
+        height: 25%;
+        display: flex;
+
+        margin-top: 10px;
+        margin-bottom: 10px;
+        animation: on_load3 2s  ease-in-out;
+    }
+    .conteudo-main:hover{
+        border: white solid 2px;
+        padding: 3px;
+        border-radius: 20px;
+    }
+
+    .conteudo-main{
+        width: 30%;
+        margin: 4PX;
+        height: 100%;
+        background-color: rgb(0, 0, 0);
+        border-radius: 5px;
+    }
+
+    .Cont-bottom{
+        width: 100%;
+        height: 25%;
+        display: flex;
+        animation: on_load4 3s  ease-in-out;
+
+    }
+    .conteudo-bottom{
+        width: 30%;
+        margin: 4PX;
+        height: 100%;
+        background-color: rgb(0, 0, 0);
+        border-radius: 5px;
+        
+    }
+    .conteudo-bottom:hover{
+        border: rgb(255, 255, 255) solid 2px;
+        padding: 1px;
+        border-radius: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+    .conteudo-top { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .conteudo-top a { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+
+    .conteudo-main{ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .conteudo-main a { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .conteudo-bottom{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .conteudo-bottom a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
